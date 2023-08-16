@@ -9,7 +9,8 @@ public class Andrei {
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
 
-        int number = random.nextInt(10);
+        // CTRL + P
+        int number = random.nextInt(1, 100);
         int guess;
 
         do {
