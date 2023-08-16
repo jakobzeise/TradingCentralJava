@@ -25,8 +25,7 @@ public class Andrei {
         if (number1 != 0) {
             int modulo = number1 % number2;
             System.out.format("%d %% %d = %d\n", number1, number2, modulo);
-        } else
-            System.out.println("Can not divide by 0");
+        } else System.out.println("Can not divide by 0");
 
     }
 
