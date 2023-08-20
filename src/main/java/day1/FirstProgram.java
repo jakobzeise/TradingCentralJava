@@ -1,5 +1,7 @@
 package day1;
 
+import day4.methods.AccessModifiers;
+
 public class FirstProgram {
 
     public static void main(String[] args) {
@@ -39,11 +41,6 @@ public class FirstProgram {
 
 
         System.out.println("day1.FirstProgram.main");
-
-
-
-
-
 
 
 

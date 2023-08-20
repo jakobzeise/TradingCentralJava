@@ -1,39 +1,43 @@
-package day3.Homework.Andrei.Array_basics;
-import java.util.Random;
-import java.util.Arrays;
-public class Solution {
+package day3.homework.andrei;
 
-    private static int[] createRandomArray(int size){
+import java.util.Arrays;
+import java.util.Random;
+
+public class ArrayBasics {
+
+    private static int[] createRandomArray(int size) {
         Random random = new Random();
         int[] array = new int[size];
 
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(101);
         }
 
         return array;
     }
 
-    private static int[] reverseArray(int[] array){
+    private static int[] reverseArray(int[] array) {
         int[] reversedArray = new int[array.length];
         int count = 0;
-        for(int i = array.length - 1; i >= 0; i--){
+        for (int i = array.length - 1; i >= 0; i--) {
             reversedArray[count++] = array[i];
         }
 
         return reversedArray;
     }
 
-    private static double average(int[] array){
+    private static double average(int[] array) {
         double sum = 0;
 
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
 
         return sum / array.length;
     }
-    public static void main(String[] args){
+
+
+    public static void main(String[] args) {
         int[] array = createRandomArray(10);
 
         System.out.println("Array: " + Arrays.toString(array));

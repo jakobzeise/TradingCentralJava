@@ -1,13 +1,16 @@
-package day3.Homework.Andrei.arrayAndString;
-import java.util.Scanner;
-public class Solution {
+package day3.homework.andrei;
 
-    private static void display(String[] words){
-        for(int i = 0; i < words.length; i++){
-            System.out.println(words[i]);
+import java.util.Scanner;
+
+public class ArrayStringsCombination {
+
+    private static void display(String[] words) {
+        for (String word : words) {
+            System.out.println(word);
         }
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Insert a sentence: ");
