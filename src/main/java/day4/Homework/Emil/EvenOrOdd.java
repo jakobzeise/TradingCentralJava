@@ -1,3 +1,5 @@
+package day4.homework.Emil;
+
 public class EvenOrOdd {
     public static String even_or_odd(int number) { //the code from below was added
         if (number % 2 == 0) {
