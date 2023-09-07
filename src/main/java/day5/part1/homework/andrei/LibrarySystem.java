@@ -1,8 +1,8 @@
-package day5.homework.Andrei;
+package day5.part1.homework.andrei;
 
 public class LibrarySystem {
-    public static void main(String[] args){
-        Book book1 = new Book("Moby-Dick", "Herman Melville", "9780763630188", 3 );
+    public static void main(String[] args) {
+        Book book1 = new Book("Moby-Dick", "Herman Melville", "9780763630188", 3);
         Book book2 = new Book("Don Quixote", "Miguel de Cervantes", "9788408061052", 1);
         Book book3 = new Book("Nineteen Eighty-Four", "Georghe Orwell", "9789510459959", 2);
 

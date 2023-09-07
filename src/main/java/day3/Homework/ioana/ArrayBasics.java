@@ -16,8 +16,10 @@ public class ArrayBasics {
     public static void main(String[] args) {
 
         Scanner getList = new Scanner(System.in);
-        int[] array = new int[10];
-        for (int i = 0; i <= 9; i++) {
+
+        int goodNumber = 10;
+        int[] array = new int[goodNumber];
+        for (int i = 0; i < array.length; i++) {
             System.out.println("we will create list of ten numbers, you will chose them and at the end i'll display them in reverse");
             System.out.println("please add the number, this number will be on the position " + i + " in the list");
             array[i] = getList.nextInt();

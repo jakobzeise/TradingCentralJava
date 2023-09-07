@@ -1,6 +1,7 @@
-package day5.homework.Andrei;
-import java.util.List;
+package day5.part1.homework.andrei;
+
 import java.util.ArrayList;
+import java.util.List;
 public class LibraryMember {
     private int memberId;
     private String firstName;

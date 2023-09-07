@@ -1,4 +1,4 @@
-package day5.homework.Andrei;
+package day5.part1.homework.andrei;
 
 public class Book {
     private String title;

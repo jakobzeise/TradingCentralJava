@@ -1,3 +1,5 @@
+package day5.part1.homework.emil;
+
 public class Book {
     private String title;
     private String author;
@@ -27,5 +29,9 @@ public class Book {
 
     public int getAvailableCopies() {
         return availableCopies;
+    }
+
+    public void setAvailableCopies(int availableCopies) {
+        this.availableCopies = availableCopies;
     }
 }

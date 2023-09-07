@@ -1,3 +1,5 @@
+package day5.part1.homework.emil;
+
 import java.util.ArrayList;
 public class LibraryMember {
     private int memberId;
@@ -46,7 +48,7 @@ public class LibraryMember {
         if (borrowedBooks.contains(book)) {
             borrowedBooks.remove(book);
             // Increase the available copies of the book by 1
-            // book.setAvailableCopies(book.getAvailableCopies() + 1);
+             book.setAvailableCopies(book.getAvailableCopies() + 1);
         } else {
             System.out.println("This book was not borrowed by this member.");
         }

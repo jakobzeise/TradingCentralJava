@@ -1,3 +1,5 @@
+package day5.part1.homework.emil;
+
 public class Main {
     public static void main(String[] args) {
         // Create a new book
