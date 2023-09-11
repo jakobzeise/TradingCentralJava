@@ -8,7 +8,7 @@ public class MainBank {
         BankAccount bank2 = new BankAccount(2, 1);
 
         bank1.deposit(400);
-        bank1.getBalance();
+        System.out.println(bank1.getBalance());
         bank1.getAccountNumber();
         bank1.withdraw(3);
 
